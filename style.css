@@ -1,0 +1,403 @@
+.main-div{
+    height: 100%;
+    width: 100%;
+}
+.main-body{
+    margin: 0%;
+}
+.header{
+    height: 30px;
+    width: 100%;
+    background:white;
+    margin-top: 20px;
+}
+.headline{
+    margin-left: 3px;
+    font-size: 27px;
+    color: #428bca;
+    text-decoration: none; 
+    font-family:math 
+}
+.underline{
+    height: 1px;
+    width: 72%;
+    background: #dcdcdc;
+    margin-left: 170px;
+    margin-top: 20px;
+}
+.button1{
+    margin-left: 516px;
+    height: 42px;
+    width: 75px;
+    border-radius: 5px;
+    background: #428bca;
+    color: white;
+    border: #428bca;
+    font-size: 14px;
+}
+.button2{
+    margin-left: 1px;
+    height: 42px;
+    width: 60px;
+    border-radius: 5px;
+    background:white;
+    color: #428bca;
+    border:white;
+    font-size: 14px;
+}
+.button3{
+    margin-left:1px;
+    height: 42px;
+    width: 60px;
+    border-radius: 5px;
+    background:white;
+    color: #428bca;
+    border: white;
+    font-size: 14px;
+}
+.button2:hover {
+   background: #dcdcdc;
+}
+.button3:hover {
+    background: #dcdcdc;
+}
+.icon{
+    margin-left: 173px;
+    height: 26px;
+    margin-top: 1px;
+}
+.body{
+    height: 565px;
+    width: 812px;
+    background: #f4f0ec;
+    margin-left: 162px;
+    margin-top: 24px;
+    border-radius: 5px;
+}
+.labe0{
+    padding: 35px;
+    margin-left: 138px;
+    font-weight: 600;
+}
+.label{
+   
+    margin-left: 137px;
+    font-weight: 600;
+}
+.input0{
+    margin-left: 54px;
+    height: 24px;
+    width: 187px;
+    border-radius: 5px;
+    border-color: white;
+    border: 2px solid #dcdcdc;
+}
+.input{
+    margin-left: 54px;
+    height: 24px;
+    width: 187px;
+    border-radius: 5px;
+    border-color: white;
+    border: 2px solid #dcdcdc;
+}
+.label2{
+    margin-left: 187px;
+    font-weight: 700
+}
+.input2{
+    margin-left: 55px;
+    font-weight: 700
+}
+.labe3{
+    padding: 29px;
+    margin-left: 57px;
+    font-weight: 600;
+}
+.input4{
+    margin-left: 55px;
+    height: 24px;
+    width: 187px;
+    border-radius: 5px;
+    border-color: white;
+    border: 2px solid #dcdcdc;
+}
+.labe4{
+    
+    margin-left: 89px;
+    font-weight: 600;
+}
+.input5{
+    margin-left: 53px;
+    height: 24px;
+    width: 187px;
+    border-radius: 5px;
+    border-color: white;
+    border: 2px solid #dcdcdc;
+}
+.labe5{
+    margin-left: -21px;
+    font-weight: 600;
+    padding: 25px;
+}
+.input6{
+    margin-left: 44px;
+    height: 24px;
+    width: 187px;
+    border-radius: 5px;
+    border-color: white;
+    border: 2px solid #dcdcdc;
+}
+.form{
+    margin-left: 35px;
+}
+.labe6{
+    margin-left: 30px;
+    font-weight: 600;
+    padding: 24px;
+}
+.input7{
+    margin-left: 51px;
+    height: 24px;
+    width: 187px;
+    border-radius: 5px;
+    border-color: white;
+    border: 2px solid #dcdcdc;
+}
+.labe7{
+    margin-left: 29px;
+    font-weight: 600;
+}
+.input8{
+    margin-left: 47px;
+    font-weight: 700;
+}
+.input9{
+    margin-left: 12px;
+    font-weight: 700;
+}
+.class7{
+    margin: 19px;
+}
+.class8{
+    margin: 19px;
+}
+.labe8{
+    margin-left: 143px;
+    font-weight: 600;
+}
+.input10{
+    margin-left: 47px;
+    font-weight: 700;
+}
+.input11{
+    margin-left: 12px;
+    font-weight: 700;
+}
+.class9{
+    margin: 19px;
+}
+.labe9{
+    margin-left: 143px;
+    font-weight: 600;
+}
+.input12{
+    margin-left: 45px;
+    font-weight: 700;
+}
+.input13{
+    margin-left: 12px;
+    font-weight: 700;
+}
+.subBtn{
+    margin-top: 27px;
+    height: 47px;
+    width: 207px;
+    border-radius: 8px;
+    border: 2px solid #dcdcdc;
+    margin-left: 161px;
+    background: #3276b1;
+    color: white;
+    font-size: 17px;
+}
+.subBtn:hover {
+    background:#26619c;
+ }
+ .result{
+    height: 344px;
+    width: 294px;
+    background: #f4f0ec;
+    float: right;
+    margin-top: -408px;
+    margin-right: 7px;
+ }
+ 
+ .information{
+    float: right;
+    height: 575px;
+    width: 288px;
+    background: white;
+    margin-top: -591px;
+    margin-right: 190px
+ }
+ .info-text1{
+    color: #3276b1;
+ }
+ .info-text2{
+    font-size: 17px;
+    font-weight: 600;
+ }
+ .input14{
+    margin-left: 47px;
+    height: 24px;
+    width: 187px;
+    border-radius: 5px;
+    border-color: white;
+    border: 2px solid #dcdcdc;
+}
+.gender{
+    margin-top: 29px;
+}
+.explanasion1{
+    margin-left: 43px;
+    font-size: 17px;
+    color: cadetblue;
+}
+.chance1{
+    margin-left: 43px;
+    font-size: 22px;
+}
+.result-value1{
+    margin-left: 44px;
+    margin-top: -68px;
+    color: green;;
+ }
+.explanasion2{
+    margin-left: 43px;
+    font-size: 17px;
+    color: cadetblue;
+}
+.chance2{
+    margin-left: 43px;
+    font-size: 22px;
+}
+.result-value2{
+    margin-left: 37px;
+    font-size: 25px;
+    color: orange
+}
+
+.explanasion3{
+    margin-left: 43px;
+    font-size: 17px;
+    color: cadetblue;
+}
+.chance3{
+    margin-left: 43px;
+    font-size: 22px;
+}
+.result-value3{
+    margin-left: 37px;
+    font-size: 25px;
+    color: #ff5349
+}
+
+.explanasion4{
+    margin-left: 43px;
+    font-size: 17px;
+    color: cadetblue;
+}
+.chance4{
+    margin-left: 43px;
+    font-size: 22px;
+}
+.result-value4{
+    margin-left: 37px;
+    font-size: 25px;
+    color: orange
+}
+
+.explanasion5{
+    margin-left: 43px;
+    font-size: 17px;
+    color: cadetblue;
+}
+.chance5{
+    margin-left: 43px;
+    font-size: 22px;
+}
+.result-value5{
+    margin-left: 37px;
+    font-size: 25px;
+    color: #ff355e
+}
+
+.explanasion6{
+    margin-left: 43px;
+    font-size: 17px;
+    color: cadetblue;
+}
+.chance6{
+    margin-left: 43px;
+    font-size: 22px;
+}
+.result-value6{
+    margin-left: 37px;
+    font-size: 25px;
+    color: red
+}
+
+.explanasion7{
+    margin-left: 43px;
+    font-size: 17px;
+    color: cadetblue;
+}
+.chance7{
+    margin-left: 43px;
+    font-size: 22px;
+}
+.result-value7{
+    margin-left: 37px;
+    font-size: 25px;
+    color: red
+}
+
+.explanasion8{
+    margin-left: 43px;
+    font-size: 17px;
+    color: cadetblue;
+}
+.chance8{
+    margin-left: 43px;
+    font-size: 22px;
+}
+.result-value8{
+    margin-left: 37px;
+    font-size: 25px;
+    color: #a9203e
+}
+
+.explanasion9{
+    margin-left: 43px;
+    font-size: 17px;
+    color: cadetblue;
+}
+.chance9{
+    margin-left: 43px;
+    font-size: 22px;
+}
+.result-value9{
+    margin-left: 37px;
+    font-size: 25px;
+    color: #a9203e
+}
+.TC{
+    font-size: 17px;
+    margin-top: -150px;
+    margin-left: 41px;
+    color: brown;
+}
+.invalide{
+    margin-top: 170px;
+    margin-left: 41px;
+    color: darkgreen
+}

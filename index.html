@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Heart Attack Prediction</title>
+    <link rel="icon" type="image/png" href="icon2.png"/>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body class="main-body">
+    <div class="main-div">
+        <div class="header">
+            <img src="logo2.jpg" alt="" class="icon">
+            <a href="" class="headline">Heart Attack Prediction</a>
+            <button class="button1">Home</button>
+            <button class="button2">About</button>
+            <button class="button3">Contact</button>
+        </div>
+        <div class="underline"></div>
+        <div class="body">
+           <div class="form">
+            <div class="labe0">
+                <label for="">Name</label>
+                <input id="name" class="input0" type="text" placeholder="           Enter your name">
+            </div>
+            <div class="label">
+                <label for="">Age(Years)</label>
+                <input id="age" class="input" type="text" placeholder="        12-100 Year">
+            </div>
+            <div class="gender" >
+                <label class="label2" for="">Sex</label>
+                <input value="100" id="male" class="input2" type="radio"><label for="">Male</label>
+                <input value="50" id="female" class="input3" type="radio"><label for="">Female</label>
+            </div>
+            <div class="labe3">
+                <label for="">HDL Level (mg/dl)</label>
+                <input id="hdl_level" class="input4" type="text" placeholder="        0-300(mg/dl)">
+            </div>
+            <div class="labe4">
+                <label for="">LDL Level (mg/dl)</label>
+                <input id="ldl_level" class="input5" type="text" placeholder="        0-300(mg/dl)">
+            </div>
+           
+            <div class="labe6">
+                <label for="">Blood pressure (mmHg)</label>
+                <input id="blood_pressure" class="input7" type="text" placeholder="        90-200(mmHg)">
+            </div>
+           
+           
+            <div class="class9">
+                <label class="labe9" for="">Smoker</label>
+                <input id="smocker_yes" class="input12" type="radio"><label for="">Yes</label>
+                <input id="smocker_no" class="input13" type="radio"><label for="">No</label>
+            </div>
+            <button onclick="calculate()" class="subBtn">Calculate</button>
+            </div>
+            <div class="result">
+                <h1 class="result-value1" id="result"></h1>
+                <h1 class="chance1" id="chance1"></h1>
+                <h1 class="explanasion1" id="explanasion1"></h1>
+
+                <h1 class="result-value2" id="result2"></h1>
+                <h1 class="chance2" id="chance2"></h1>
+                <h1 class="explanasion2" id="explanasion2"></h1>
+
+                <h1 class="result-value3" id="result3"></h1>
+                <h1 class="chance3" id="chance3"></h1>
+                <h1 class="explanasion3" id="explanasion3"></h1>
+
+                <h1 class="result-value4" id="result4"></h1>
+                <h1 class="chance4" id="chance4"></h1>
+                <h1 class="explanasion4" id="explanasion4"></h1>
+
+                <h1 class="result-value5" id="result5"></h1>
+                <h1 class="chance5" id="chance5"></h1>
+                <h1 class="explanasion5" id="explanasion5"></h1>
+
+                <h1 class="result-value6" id="result6"></h1>
+                <h1 class="chance6" id="chance6"></h1>
+                <h1 class="explanasion6" id="explanasion6"></h1>
+
+                <h1 class="result-value7" id="result7"></h1>
+                <h1 class="chance7" id="chance7"></h1>
+                <h1 class="explanasion7" id="explanasion7"></h1>
+
+                <h1 class="result-value8" id="result8"></h1>
+                <h1 class="chance8" id="chance8"></h1>
+                <h1 class="explanasion8" id="explanasion8"></h1>
+
+                <h1 class="result-value9" id="result9"></h1>
+                <h1 class="chance9" id="chance9"></h1>
+                <h1 class="explanasion9" id="explanasion9"></h1>
+
+                <h1 class="invalide" id="invalide"></h1>
+
+                <h1 class="TC" id="tCholestrol"></h1>
+
+
+
+
+
+               
+               
+
+
+    
+               
+            </div>
+        </div>
+        <div class="information">
+            <h2 class="info-text1">Calculate your 6-month risk of heart disease or stroke using the ASCVD algorithm published in</h2>
+            <p class="info-text2">This calculator assumes that you have not had a prior heart attack or stroke. If you have, generally it is recommended that you discuss with your doctor about starting aspirin and a statin. Furthermore, if you have an LDL-cholesterol (bad cholesterol) greater than 190, it is also generally recommended that you discuss with your doctor about starting aspirin and a statin.
+
+                Unfortunately, there is insufficient data to reliably predict risk for those less than 40 years of age or greater than 79 years of age and for those with total cholesterol greater than 320.</p>
+        </div>
+        
+    </div>
+    
+</body>
+</html>
